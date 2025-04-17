@@ -27,12 +27,14 @@
   <!-- Google Fonts -->
   <!-- <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"> -->
 
-  <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Bootstrap CSS Files  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <!-- <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"> -->
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
@@ -44,22 +46,18 @@
 
   <!-- ======= Mobile nav toggle button ======= -->
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
-  <!-- ======= Header ======= -->
   <header id="header" class="d-flex flex-column justify-content-center">
-
     <nav id="navbar" class="navbar nav-menu">
     <ul>
-        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
-        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Projects</span></a></li>
-        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        <li><a href="#hero" class="nav-link fs-5 scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#about" class="nav-link fs-5 scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="#resume" class="nav-link fs-5 scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+        <li><a href="#portfolio" class="nav-link fs-5 scrollto"><i class="bx bx-book-content"></i> <span>Projects</span></a></li>
+        <li><a href="#contact" class="nav-link fs-5 scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
       </ul>
-    </nav><!-- .nav-menu -->
+    </nav>
+  </header>
 
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center">
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
       <h1>Paul Velet</h1>
@@ -70,10 +68,8 @@
       </div>
     </div>
   </section>
-  <!-- End Hero -->
 
   <main id="main">
-    <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container" data-aos="fade-up">
 
@@ -113,7 +109,7 @@
 
         <div class="section-title">
           <h2>Resume Quick Glance</h2>
-          <p>View original <a href="https://drive.google.com/file/d/1PWDAcQm-GM46BwMSiCgZ5pmZ7Dp90oCA/view?usp=sharing" target="blank">resume</a>.</p>
+          <p>View original <a href="https://drive.google.com/file/d/14OsfKWLFwfnqoM4pjFaFrXmNEENi9Wf9/view?usp=sharing" class="fw-semibold" target="blank">resume</a>.</p>
         </div>
 
         <div class="row">
@@ -195,12 +191,13 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/devsearch.JPG" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/wavevolleyballclub.JPG" class="img-fluid" alt="">
+              
               <div class="portfolio-info">
-                <h4>DevSearch</h4>
+                <h4>Wave Volleyball Club</h4>
                 <div class="portfolio-links">
+                  <a href="https://volleyballwaveclub.netlify.app/" target="_blank"><i class="bi bi-link-45deg"></i></a>
                 </div>
-                  <a href="https://my-devsearch-project.herokuapp.com/" target="blank"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M8.465 11.293c1.133-1.133 3.109-1.133 4.242 0l.707.707 1.414-1.414-.707-.707c-.943-.944-2.199-1.465-3.535-1.465s-2.592.521-3.535 1.465L4.929 12a5.008 5.008 0 0 0 0 7.071 4.983 4.983 0 0 0 3.535 1.462A4.982 4.982 0 0 0 12 19.071l.707-.707-1.414-1.414-.707.707a3.007 3.007 0 0 1-4.243 0 3.005 3.005 0 0 1 0-4.243l2.122-2.121z"></path><path d="m12 4.929-.707.707 1.414 1.414.707-.707a3.007 3.007 0 0 1 4.243 0 3.005 3.005 0 0 1 0 4.243l-2.122 2.121c-1.133 1.133-3.109 1.133-4.242 0L10.586 12l-1.414 1.414.707.707c.943.944 2.199 1.465 3.535 1.465s2.592-.521 3.535-1.465L19.071 12a5.008 5.008 0 0 0 0-7.071 5.006 5.006 0 0 0-7.071 0z"></path></svg></a>
               </div>
             </div>
           </div>
@@ -211,21 +208,20 @@
               <div class="portfolio-info">
                 <h4>RaeWint Photography</h4>
                 <div class="portfolio-links">
+                    <a href="https://raewintphotography.com" target="_blank"><i class="bi bi-link-45deg"></i></a>                  
                 </div>
-                  <a href="https://raewintphotography.com" target="blank"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M8.465 11.293c1.133-1.133 3.109-1.133 4.242 0l.707.707 1.414-1.414-.707-.707c-.943-.944-2.199-1.465-3.535-1.465s-2.592.521-3.535 1.465L4.929 12a5.008 5.008 0 0 0 0 7.071 4.983 4.983 0 0 0 3.535 1.462A4.982 4.982 0 0 0 12 19.071l.707-.707-1.414-1.414-.707.707a3.007 3.007 0 0 1-4.243 0 3.005 3.005 0 0 1 0-4.243l2.122-2.121z"></path><path d="m12 4.929-.707.707 1.414 1.414.707-.707a3.007 3.007 0 0 1 4.243 0 3.005 3.005 0 0 1 0 4.243l-2.122 2.121c-1.133 1.133-3.109 1.133-4.242 0L10.586 12l-1.414 1.414.707.707c.943.944 2.199 1.465 3.535 1.465s2.592-.521 3.535-1.465L19.071 12a5.008 5.008 0 0 0 0-7.071 5.006 5.006 0 0 0-7.071 0z"></path></svg></a>
               </div>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/WVC.JPG" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/devsearch.JPG" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Volleyball Wave Club</h4>
+                <h4>DevSearch</h4>
                 <div class="portfolio-links">
-                  <a href="https://github.com/Huntitude/WaveVolleyballClub" target="blank"><i class="bi bi-github"></i></a>
-                  <a href="https://www.youtube.com/watch?v=n-SZRin9OUo" target="blank" ><i class="bi bi-youtube"></i></a>
                 </div>
+                  <a href="https://my-devsearch-project.herokuapp.com/" target="blank"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);transform: ;msFilter:;"><path d="M8.465 11.293c1.133-1.133 3.109-1.133 4.242 0l.707.707 1.414-1.414-.707-.707c-.943-.944-2.199-1.465-3.535-1.465s-2.592.521-3.535 1.465L4.929 12a5.008 5.008 0 0 0 0 7.071 4.983 4.983 0 0 0 3.535 1.462A4.982 4.982 0 0 0 12 19.071l.707-.707-1.414-1.414-.707.707a3.007 3.007 0 0 1-4.243 0 3.005 3.005 0 0 1 0-4.243l2.122-2.121z"></path><path d="m12 4.929-.707.707 1.414 1.414.707-.707a3.007 3.007 0 0 1 4.243 0 3.005 3.005 0 0 1 0 4.243l-2.122 2.121c-1.133 1.133-3.109 1.133-4.242 0L10.586 12l-1.414 1.414.707.707c.943.944 2.199 1.465 3.535 1.465s2.592-.521 3.535-1.465L19.071 12a5.008 5.008 0 0 0 0-7.071 5.006 5.006 0 0 0-7.071 0z"></path></svg></a>
               </div>
             </div>
           </div>
@@ -268,8 +264,6 @@
           </div>
 
         </div>
-        </div>
-
       </div>
     </section>
     <!-- End Portfolio Section -->
